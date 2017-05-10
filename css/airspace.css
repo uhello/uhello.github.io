@@ -6,14 +6,7 @@
  * 
  */
 
-/*
-@import url(http://fonts.useso.com/css?family=Open+Sans:400,300,600);
-@import url(http://fonts.useso.com/css?family=Roboto:400,100,300,500,700);
-@import url(http://fonts.useso.com/css?family=Volkhov:400italic);
-*/
-
 /* var text-decoration */
-
 /*--
 	Common Css
 --*/
@@ -103,6 +96,7 @@ font header .navbar-default .navbar-nav li a:hover {
 #slider {
   background: url("../img/slider-bg.jpg") no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   background-position: 10% 0%;
   padding: 200px 0 280px 0;
   position: relative;
@@ -116,7 +110,7 @@ font header .navbar-default .navbar-nav li a:hover {
   right: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to left, rgba(139, 134, 163, 0.5), rgba(50, 46, 64, 0.5));
+  background: linear-gradient(to left, #8b86a3, #322e40);
   opacity: 0.8;
 }
 #slider .block {
