@@ -15,7 +15,7 @@ keep_files:
 
 # Site settings
 title: "“小鲜肉” 面对面视频聊天"
-subtitle: " "
+subtitle: ""
 
 # the base hostname & protocol for your site
 url: "http://www.uhello.com" 
