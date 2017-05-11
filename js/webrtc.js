@@ -7,7 +7,7 @@ window.SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecogn
   || window.msSpeechRecognition || window.oSpeechRecognition;
 
 var config = {
-  wssHost: 'wss://wotpal.club'
+  wssHost: 'wss://wcs5-eu.flashphoner.com:8443'
   // wssHost: 'wss://example.com/myWebSocket'
 };
 var localVideoElem = null, 
@@ -18,9 +18,9 @@ var localVideoElem = null,
 var peerConn = null,
   	wsc = new WebSocket(config.wssHost),
   	peerConnCfg = {'iceServers': 
-    [{'url': 'stun:stun.services.mozilla.com'}, 
-     {'url': 'stun:stun.l.google.com:19302'}]
-  };
+		    [{'url': 'stun:stun.services.mozilla.com'}, 
+		     {'url': 'stun:stun.l.google.com:19302'}]
+	};
     
 function pageReady() {
   // check browser WebRTC availability 
