@@ -11,13 +11,13 @@ var config = {
   // wssHost: 'wss://example.com/myWebSocket'
 };
 var localVideoElem = null, 
-  remoteVideoElem = null, 
-  localVideoStream = null,
-  videoCallButton = null, 
-  endCallButton = null;
+  	remoteVideoElem = null, 
+  	localVideoStream = null,
+  	videoCallButton = null, 
+  	endCallButton = null;
 var peerConn = null,
-  wsc = new WebSocket(config.wssHost),
-  peerConnCfg = {'iceServers': 
+  	wsc = new WebSocket(config.wssHost),
+  	peerConnCfg = {'iceServers': 
     [{'url': 'stun:stun.services.mozilla.com'}, 
      {'url': 'stun:stun.l.google.com:19302'}]
   };
