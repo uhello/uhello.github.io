@@ -13,10 +13,17 @@ permalink: /work.html
           <div class="col-md-12">
             <div class="block">
 
-    <video id="remoteVideo" autoplay></video>
-    <video id="localVideo" autoplay muted></video>
     <input id="videoCallButton" type="button" disabled value="Video Call"/>
     <input id="endCallButton" type="button" disabled value="End Call"/>
+	<br/><br/>
+<div style="width:49%;float:left;border-radius: 20px;background-color: #C0C0C0;border: 1px solid #E6E8FA; padding: 1px">
+	<video id="remoteVideo" autoplay controls="controls" 
+		style="width:100%;border-radius: 20px;padding: 2px"></video>
+</div>	
+<div style="width:49%;float:left;border-radius: 20px;background-color: #C0C0C0;border: 1px solid #E6E8FA; padding: 1px">
+    <video id="localVideo" autoplay controls="controls" muted 
+		style="width:100%;border-radius: 20px;padding: 2px"></video>
+</div>	
     <script>window.addEventListener("load", pageReady);</script>
 
           </div>
