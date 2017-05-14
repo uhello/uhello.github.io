@@ -8,7 +8,7 @@ window.SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecogn
 
 var config = {
   wssHost: 'wss://wcs5-eu.flashphoner.com:8443'
-  // wssHost: 'wss://example.com/myWebSocket'
+  // wssHost: 'wss://localhost:8443'
 };
 var localVideoElem = null, 
   	remoteVideoElem = null, 
